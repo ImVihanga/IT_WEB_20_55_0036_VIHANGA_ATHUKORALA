@@ -13,92 +13,161 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Final Project</title>
 
     <style>
-      .navigation {
-        background-color: rgb(41, 181, 236);
+      .nav-bar-top {
+        background-color: rgb(49, 156, 228);
       }
-      .navitem-list {
-        list-style: none;
+      .nav-button {
+        margin-top: 26px;
+        margin-bottom: 26px;
       }
-      .navbar-collapse {
-        width: 0%;
+      .top-left-button {
+        text-align: center;
+        color: rgb(49, 156, 228) !important;
+        margin-left: 20px;
+        font-weight: bold;
+        font-style: normal !important;
       }
-      .headlinks {
-        font-size: larger;
-        font-weight: 500;
-        color: rgb(41, 181, 236) !important;
-        margin-left: 30px !important;
+      .nav-link {
+        color: white !important;
+        font-weight: bold;
       }
-      .nvilink {
-        font-size: large;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        color: aliceblue;
-        font-weight: normal;
+      .jumbotron-img{
+        height: 600px;
+        background-image: url(OtherImages/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
       }
-      .corosal img {
-        width: 100%;
-        max-width;:100%
+      .firstline{
+        color: white;
+      }
+      .jumbo-button{
+        margin-top: 10px;
+        background-color: rgb(255, 159, 32);
+        border-radius: 0%;
+      }
+      .button-text{
+        color: white;
+        font-weight: 600;
+      }
+      .paragraph{
+        margin-top: 10px;
+        color: white;
+      }
+      .textarea{
+        align-self: center;
+      }
+      .textpannel{
+        background-color:rgb(49, 156, 228) !important;
+        height: 350px;
       }
     </style>
   </head>
 
   <body>
-    <section class="header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container topcon">
-          <img src="OtherImages/logo.jpg" alt="" width="" height="" />
+    <!------------------------------------Head------------------------------------------>
+
+    <section class="container header">
+      <div class="row">
+        <div class="col-md-3 justify-content-md-start logo">
+          <img src="OtherImages/logo.jpg" alt="" />
+        </div>
+
+        <div class="col-md-6 d-sm-none d-md-block"></div>
+
+        <div class="col-md-3 col-sm-12 buttons">
+          <div class="row d-flex">
+            <div class="col nav-button">
+              <a class="top-left-button" href="#">Register</a>
+            </div>
+
+            <div class="col nav-button">
+              <a class="top-left-button" href="#">Login</a>
+            </div>
+
+            <div class="col nav-button">
+              <a class="top-left-button" href="#">Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------Nav-bar--------------------------------------->
+
+    <section class="container-fluid nav-bar-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light custom-nav">
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link headlinks" href="#">Register</a>
+
+          <div
+            class="collapse navbar-collapse justify-content-start"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">
+                  Home
+                  <span class="sr-only"> </span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link headlinks" href="#">Login</a>
+                <a class="nav-link" href="#">My Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link headlinks" href="#">Cart</a>
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inbox</a>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </section>
-
-    <section class="navigation">
-      <div class="container justify-content-start navbarcon">
-        <ul class="d-flex navitem-list">
-          <li class="nav-item">
-            <a class="nav-link nvilink" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nvilink" href="#">My Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nvilink" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nvilink" href="#">Inbox</a>
-          </li>
-        </ul>
+        </nav>
       </div>
     </section>
 
-    <section class="corosal">
-      <img src="OtherImages/background.jpg" alt="" />
+    <!------------------------------------Image--------------------------------------->
+
+    <section class="jumbotron-fluid jumbotron-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5  d-md-block emptyspace"></div>
+          <div class="col-md-7 align-items-center textarea">
+            <h2 class="firstline">FindFindingFound</h2>
+            <a href="" class="btn jumbo-button"><h1 class="button-text">Find what you need</h1></a>
+            <p class="paragraph">FindFindingFound is the first and foremost marketpalce where the buyer is in full control.
+              This is the site to be when all other avenues fail.</p>
+          </div>
+        </div>
+      </div>
+
     </section>
+
+ <!------------------------------------Text-Area--------------------------------------->
+
+ <section class="container-fluid textpannel"></section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
