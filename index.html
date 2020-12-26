@@ -14,56 +14,7 @@
     />
 
     <title>Final Project</title>
-
-    <style>
-      .nav-bar-top {
-        background-color: rgb(49, 156, 228);
-      }
-      .nav-button {
-        margin-top: 26px;
-        margin-bottom: 26px;
-      }
-      .top-left-button {
-        text-align: center;
-        color: rgb(49, 156, 228) !important;
-        margin-left: 20px;
-        font-weight: bold;
-        font-style: normal !important;
-      }
-      .nav-link {
-        color: white !important;
-        font-weight: bold;
-      }
-      .jumbotron-img{
-        height: 600px;
-        background-image: url(OtherImages/background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .firstline{
-        color: white;
-      }
-      .jumbo-button{
-        margin-top: 10px;
-        background-color: rgb(255, 159, 32);
-        border-radius: 0%;
-      }
-      .button-text{
-        color: white;
-        font-weight: 600;
-      }
-      .paragraph{
-        margin-top: 10px;
-        color: white;
-      }
-      .textarea{
-        align-self: center;
-      }
-      .textpannel{
-        background-color:rgb(49, 156, 228) !important;
-        height: 350px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -80,15 +31,15 @@
         <div class="col-md-3 col-sm-12 buttons">
           <div class="row d-flex">
             <div class="col nav-button">
-              <a class="top-left-button" href="#">Register</a>
+              <button class="top-left-button">Register</button>
             </div>
 
             <div class="col nav-button">
-              <a class="top-left-button" href="#">Login</a>
+              <button class="top-left-button">Login</button>
             </div>
 
             <div class="col nav-button">
-              <a class="top-left-button" href="#">Cart</a>
+              <button class="top-left-button">Cart</button>
             </div>
           </div>
         </div>
@@ -143,21 +94,310 @@
     <section class="jumbotron-fluid jumbotron-img">
       <div class="container">
         <div class="row">
-          <div class="col-md-5  d-md-block emptyspace"></div>
+          <div class="col-md-5 d-md-block emptyspace"></div>
           <div class="col-md-7 align-items-center textarea">
             <h2 class="firstline">FindFindingFound</h2>
-            <a href="" class="btn jumbo-button"><h1 class="button-text">Find what you need</h1></a>
-            <p class="paragraph">FindFindingFound is the first and foremost marketpalce where the buyer is in full control.
-              This is the site to be when all other avenues fail.</p>
+            <a class="btn jumbo-button"
+              ><h1 class="button-text">Find what you need</h1></a
+            >
+            <p class="paragraph">
+              FindFindingFound is the first and foremost marketpalce where the
+              buyer is in full control. This is the site to be when all other
+              avenues fail.
+            </p>
           </div>
         </div>
       </div>
-
     </section>
 
- <!------------------------------------Text-Area--------------------------------------->
+    <!------------------------------------Text-Area--------------------------------------->
 
- <section class="container-fluid textpannel"></section>
+    <section class="container-fluid textpannel">
+      <div class="container containts-main">
+        <div class="row">
+          <div class="col-md-12 firstrowcol">
+            <p class="toptext">
+              Regardless of whether you are looking for something rare, looking
+              for that special deal, or just have something to provide, our
+              platform will enable your needs.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 secondrowcol1">
+            <p class="lefttext">Ready to get started...?</p>
+
+            <a href="" class="btn leftbtn">REGISTER</a>
+          </div>
+          <div class="col-md-6 secondrowcol2">
+            <p class="righttext">Already have an account...?</p>
+
+            <a href="" class="btn rightbtn">LOGIN</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------Cards--------------------------------------->
+
+    <section class="container cards">
+      <div class="heading">
+        <h1 class="title">What people are buying?</h1>
+      </div>
+
+      <div class="row pb-5 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card 1-->
+          <div class="card rounded shadow border-0">
+            <div class="card-body p-4">
+              <span class="badge bg-secondary orange-badge">NEW</span>
+              <img
+                src="Products/1.jpg"
+                alt=""
+                class="img-fluid d-block mx-auto mb-3"
+              />
+              <h3 class="text-dark">Safe Helmet</h3>
+
+              <ul class="list-inline small star-list">
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+              </ul>
+              <ul class="list-inline price">
+                <li
+                  class="list-inline-item discounted-price"
+                  style="color: rgb(255, 159, 32)"
+                >
+                  $499.00
+                </li>
+                <li
+                  class="list-inline-item actual-price"
+                  style="color: rgb(126, 126, 126)"
+                >
+                  <s>$599.00</s>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card 2-->
+          <div class="card rounded shadow border-0">
+            <div class="card-body p-4">
+              <span class="badge bg-secondary orange-badge">NEW</span>
+              <img
+                src="Products/2.jpg"
+                alt=""
+                class="img-fluid d-block mx-auto mb-3"
+              />
+              <h3 class="text-dark">Kids Bag</h3>
+
+              <ul class="list-inline small star-list">
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+              </ul>
+              <ul class="list-inline price">
+                <li
+                  class="list-inline-item discounted-price"
+                  style="color: rgb(255, 159, 32)"
+                >
+                  $499.00
+                </li>
+                <li
+                  class="list-inline-item actual-price"
+                  style="color: rgb(126, 126, 126)"
+                >
+                  <s>$599.00</s>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card 3-->
+          <div class="card rounded shadow border-0">
+            <div class="card-body p-4">
+              <span class="badge bg-secondary blue-badge">SALE</span>
+              <img
+                src="Products/3.jpg"
+                alt=""
+                class="img-fluid d-block mx-auto mb-3"
+              />
+              <h3 class="text-dark">Modern Bag</h3>
+
+              <ul class="list-inline small star-list">
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+              </ul>
+              <ul class="list-inline price">
+                <li
+                  class="list-inline-item discounted-price"
+                  style="color: rgb(255, 159, 32)"
+                >
+                  $499.00
+                </li>
+                <li
+                  class="list-inline-item actual-price"
+                  style="color: rgb(126, 126, 126)"
+                >
+                  <s>$599.00</s>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <!-- Card 4-->
+          <div class="card rounded shadow border-0">
+            <div class="card-body p-4">
+              <span class="badge bg-secondary orange-badge">NEW</span>
+              <img
+                src="Products/4.jpg"
+                alt=""
+                class="img-fluid d-block mx-auto mb-3"
+              />
+              <h3 class="text-dark">Headphone</h3>
+
+              <ul class="list-inline medium star-list">
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+                <li class="list-inline-item m-0">
+                  <img src="OtherImages/Icon ionic-ios-star.png" alt="" />
+                </li>
+              </ul>
+              <ul class="list-inline price">
+                <li
+                  class="list-inline-item discounted-price"
+                  style="color: rgb(255, 159, 32)"
+                >
+                  $499.00
+                </li>
+                <li
+                  class="list-inline-item actual-price"
+                  style="color: rgb(126, 126, 126)"
+                >
+                  <s>$599.00</s>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------Customers--------------------------------------->
+
+    <section class="container customers">
+      <div class="row row1">
+        <div class="col-md-1 profile-picture1"></div>
+        <div class="col-md-6 contents">
+          <h4>Translate Spanish to English</h4>
+          <p><i>Posted 01/09/2019</i></p>
+        </div>
+        <div class="col-md-3 price-range">
+          <h4>$250.00 to $700.00</h4>
+        </div>
+        <div class="col-md-2 bid-now-button">
+          <a href="" class="btn bid-button">Place Bid</a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="row row2">
+        <div class="col-md-1 profile-picture2"></div>
+        <div class="col-md-6 contents">
+          <h4>Graphic Design for Company</h4>
+          <p><i>Posted 01/09/2019</i></p>
+        </div>
+        <div class="col-md-3 price-range">
+          <h4>$550.00 to $670.00</h4>
+        </div>
+        <div class="col-md-2 bid-now-button">
+          <a href="" class="btn bid-button">Place Bid</a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="row row3">
+        <div class="col-md-1 profile-picture3"></div>
+        <div class="col-md-6 contents">
+          <h4>Creative Art and Logo</h4>
+          <p><i>Posted 01/09/2019</i></p>
+        </div>
+        <div class="col-md-3 price-range">
+        <h4>$250.00 to $600.00</h4></div>
+        <div class="col-md-2 bid-now-button">
+          <a href="" class="btn bid-button">Place Bid</a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="row row4">
+        <div class="col-md-1 profile-picture4"></div>
+        <div class="col-md-6 contents">
+          <h4>Website Development Job</h4>
+          <p><i>Posted 01/09/2019</i></p>
+        </div>
+        <div class="col-md-3 price-range">
+          <h4>$450.00 to $900.00</h4>
+        </div>
+        <div class="col-md-2 bid-now-button">
+          <a href="" class="btn bid-button">Place Bid</a>
+        </div>
+      </div>
+      <hr />
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
