@@ -191,14 +191,112 @@
   margin-bottom: 2px;
 }
 .bid-now-button {
-    align-items: center !important;
-    align-self:center  !important;
-  
+  align-items: center !important;
+  align-self: center !important;
 }
 .contents {
   text-align: left !important;
 }
 .price-range {
   text-align: center;
-  align-self:center  !important;
+  align-self: center !important;
+}
+.bottom-text-pannel {
+  background-color: rgb(255, 159, 32);
+}
+.bottom-text {
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(255, 159, 32);
+  height: auto;
+}
+.leftbtn1 {
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  background: -webkit-linear-gradient(#fbdd88 50%, #ffbb4e 50%);
+  border: transparent;
+  border-radius: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 2px;
+  justify-items: center !important;
+}
+.rightbtn1 {
+  justify-items: center !important;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  background: -webkit-linear-gradient(#fbdd88 50%, #ffbb4e 50%);
+  border: transparent;
+  border-radius: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.secondrowcol {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.headline {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(255, 159, 32);
+}
+.center-image {
+  margin-bottom: 0% !important;
+  padding-bottom: 0% !important;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 4cm;
+  background-image: url(OtherImages/howitworks.jpg) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.process-text {
+  text-align: center;
+}
+.firstcol {
+  text-align: center;
+}
+.thirdrowfirstcol{
+  margin-top: 0% !important;
+  padding-top: 0% !important;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.darkfooter{
+  background-color: rgb(41, 41, 41);
+}
+.paragraph-bottom{
+  color: white;
+}
+.network{
+  color: white;
+}
+.title1{
+  color: rgb(54, 190, 253) !important;
+  margin-left: 20px;
+}
+.about{
+  color: white;
+}
+.social{
+  color: white;
+}
+.paragraph-bottom{
+  margin-left: 20px;
+}
+.lead{
+  margin-left: 20px !important;
+}
+.social-img{
+  margin-left: 20px;
+}
+
+
+hr:not([size]) {
+  height: 1px;
+  color: rgb(134, 134, 134);
 }
