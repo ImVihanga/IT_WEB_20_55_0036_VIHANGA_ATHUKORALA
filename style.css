@@ -65,13 +65,12 @@
   color: white;
 }
 .lefttext {
-  text-align: right;
+  text-align: center;
   font-size: 0.5cm;
   color: white;
 }
 .righttext {
-  text-align: left;
-  margin-right: 30px;
+  text-align: center;
   font-size: 0.5cm;
   color: white;
 }
@@ -85,7 +84,7 @@
   padding: 10px 0px;
   text-align: center;
   margin-bottom: 2px;
-  justify-items: right !important;
+  justify-items: center !important;
 }
 .rightbtn {
   color: white;
@@ -99,8 +98,12 @@
   margin-bottom: 2px;
 }
 .secondrowcol1 {
-  padding-right: 20px;
-  text-align: end !important;
+  align-self: center !important;
+  text-align: center !important;
+}
+.secondrowcol2 {
+  align-self: start;
+  text-align: center !important;
 }
 
 .containts-main {
